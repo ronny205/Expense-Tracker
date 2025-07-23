@@ -8,12 +8,6 @@
   <img alt="Static Badge" src="https://img.shields.io/badge/jwt-orange?style=for-the-badge">
 </p>
 
-## Table of contents
-
-1. [Descripiton](#description)
-2. [How to run?](#how-to-run)
-3. [Screenshots](#screenshots)
-
 ## Description
 
 - Developed a full-stack expense tracking web application using Spring Boot, React.js, and MySQL, facilitating seamless management of day-to-day finances.
@@ -36,7 +30,7 @@ git clone https://github.com/<your-username>/Fullstack-Expense-Tracker
 
 ### Step 2: Setting up e-mail and database configurations
 
-- Configure the following credentials in the [`application.properties`](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/blob/main/backend/src/main/resources/application.properties) file.
+- Configure the following credentials in the [`application.properties`](https://github.com/ronny205/Expense-Tracker/blob/main/backend/src/main/resources/application.properties) file.
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/YOUR_DATABASE_NAME
@@ -50,12 +44,12 @@ spring.mail.password=YOUR_PASSWORD
 ### Step 3: Run the backend.
 
 - Run the backend application. It will automatically create the required tables.
-- Add some custom data manually in the [categories](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/blob/7ecea71aaeca4e26a4aafd02fd602abe4d9da67d/backend/src/main/java/com/fullStack/expenseTracker/models/Category.java#L13) table for both [type](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/blob/7ecea71aaeca4e26a4aafd02fd602abe4d9da67d/backend/src/main/java/com/fullStack/expenseTracker/models/TransactionType.java#L13) `expense` and `income`.
-- To start as admin, Insert a new user manually with role admin in [`users`](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/blob/7ecea71aaeca4e26a4aafd02fd602abe4d9da67d/backend/src/main/java/com/fullStack/expenseTracker/models/User.java#L20) table.
+- Add some custom data manually in the [categories](https://github.com/ronny205/Expense-Tracker/blob/main/backend/src/main/java/com/fullStack/expenseTracker/models/Category.java) table for both [type](https://github.com/ronny205/Expense-Tracker/blob/main/backend/src/main/java/com/fullStack/expenseTracker/models/TransactionType.java) `expense` and `income`.
+- To start as admin, Insert a new user manually with role admin in [`users`](https://github.com/ronny205/Expense-Tracker/blob/main/backend/src/main/java/com/fullStack/expenseTracker/models/User.java) table.
 
 ### Step 4: Run the frontend
 
-1. Navigate to [frontend direcory](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/tree/main/frontend).
+1. Navigate to [frontend direcory](https://github.com/ronny205/Expense-Tracker/tree/main/frontend).
 
 ```
 cd ./frontend
