@@ -25,7 +25,7 @@
 2. Clone the forked repository to your local machine.
 
 ```sh
-git clone https://github.com/<your-username>/Fullstack-Expense-Tracker
+git clone https://github.com/<your-username>/Expense-Tracker
 ```
 
 ### Step 2: Setting up e-mail and database configurations
